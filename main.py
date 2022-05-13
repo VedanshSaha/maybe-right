@@ -24,6 +24,14 @@ def get_movie():
         "status" : 'success'
     })
 
+@app.route("/rec-content")
+def get_movie():
+   get_reccommendation()
+
+@app.route("/popular-content")
+def get_movie():
+   output.show
+
 @app.route("/liked-content",methods = ["POST"] )
 def liked_movie() : 
     movie = all_movies[0]
