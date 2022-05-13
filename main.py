@@ -1,6 +1,6 @@
 from flask import Flask,jsonify,request
-import output from demographic_filtering.py
-import get_recommendation() from content_filtering.py
+import output from demographic_filtering
+import get_recommendation() from content_filtering
 import csv
 
 all_movies = []
